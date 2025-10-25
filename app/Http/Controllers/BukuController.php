@@ -2,16 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Buku;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class BukuController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('home');
+        $data_buku = Buku::all();
+
+        return view('buku.index', compact('data_buku'));
     }
 
     /**

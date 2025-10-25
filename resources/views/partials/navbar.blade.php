@@ -8,7 +8,7 @@
         <div class="d-none d-lg-flex flex-grow-1 justify-content-center">
           <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="product.html">Product</a></li>
+            <li class="nav-item"><a class="nav-link" href={{ route('produk') }}>Product</a></li>
             <li class="nav-item"><a class="nav-link" href="#footer">About</a></li>
           </ul>
         </div>
